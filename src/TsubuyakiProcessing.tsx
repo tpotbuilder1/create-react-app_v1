@@ -9,7 +9,7 @@ const TsubuyakiProcessing: React.FC = () => {
   useEffect(() => {
     if (!sketchRef.current) return
 
-    const sketch = (p: p5) => {
+    const sketch = (p: any) => {
       let t = 0
       const w = 400
 

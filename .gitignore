@@ -27,3 +27,7 @@ yarn-error.log*
 .env
 .env.build
 .vercel
+
+# Ignore JavaScript entry and App files
+/src/index.js
+/src/App.js
